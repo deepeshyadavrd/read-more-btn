@@ -1,6 +1,6 @@
 :root{
-    --accent: #6c5ce7;
-    --bg: #f1c40f;
+    --accent: #D6EFFF;
+    --bg: #FEFEFF;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
@@ -26,7 +26,7 @@ body{
 .card{
   width: 20rem;
   background-color: var(--accent);
-  color: #fff;
+  color: #000;
   margin: 2rem auto;
 }
 
@@ -70,7 +70,7 @@ p{
 .read-more-btn{
   display: inline-block;
   color: var(--accent);
-  background-color: #eee;
+  background-color: #000;
   padding: 0.6rem 1.5rem;
   font-size: 1em;
   position: relative;
@@ -80,6 +80,7 @@ p{
 }
 
 .read-more-btn:hover{
+  color:#000;
   background-color: #fff;
   box-shadow: 0 0 2rem rgba(0,0,0,0.1);
   transform: translateY(-3px);
